@@ -1,0 +1,7 @@
+1. make a policy with defined model --- (--model=Post)
+2. register it in the AuthServiceprovider
+3. use this using policy method ( in blade [can(),cannot()], in controller [authorize()] )
+
+Gate---
+1. Register gate in AuthServiceprovider
+2. use this gates using the Gate method like Gate::allow()
